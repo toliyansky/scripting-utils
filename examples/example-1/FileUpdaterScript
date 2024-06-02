@@ -1,0 +1,27 @@
+#!/usr/bin/java --source 22 --enable-preview --class-path /Users/toliyansky/scripting-utils
+
+import static scripting.Utils.*;
+
+void main() {
+    var linksFilePath = "links.txt";
+    if (!file.exists(linksFilePath)) {
+        log.error("File not found: " + linksFilePath);
+        return;
+    }
+    file.readAllLines(linksFilePath)
+            .forEach(line -> thread.run(() -> {
+                var data = line.split(" ");
+                var fileName = data[0];
+                var url = data[1];
+                var response = http.get(url);
+                if (response.statusCode() == 200) {
+                    file.rewrite(fileName, response.body());
+                    log.info("File " + fileName + " updated from " + url);
+                } else {
+                    log.warn("File " + fileName + " was not updated. Http code: " + response.statusCode());
+                }
+            }));
+    thread.sleepSeconds(5);
+    var terminalResponse = terminal.execute("ls -lah", 100);
+    log.info(terminalResponse.output);
+}

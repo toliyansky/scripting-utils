@@ -1,0 +1,3 @@
+artricle-1.txt https://httpbin.org/get
+artricle-2.txt https://httpbin.org/get?foo=bar
+artricle-3.txt https://httpbin.org/get/will/not/be/found
