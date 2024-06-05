@@ -22,8 +22,7 @@ curl -s https://raw.githubusercontent.com/AnatoliyKozlov/scripting-utils/master/
 ### How to use
 1) Install scripting-utils. Execute one-line command from the Installation section above
 2) Create a shebang file (**without** the .java extension) 
-3) Apply command `chmod +x your-file-name` to make it executable
-4) Write your Java code in the file (as in example below)
+3) Write your Java code in the file (as in example below)
 ```java
 #!/usr/bin/java --source 22 --enable-preview --class-path /Users/toliyansky/scripting-utils
 
@@ -35,6 +34,7 @@ void main() {
     log.info(response.body());
 }
 ```
+4) Apply command `chmod +x your-file-name` to make it executable
 5) Run the file from the command line. For example: `./your-file-name`
 
 ### Features
