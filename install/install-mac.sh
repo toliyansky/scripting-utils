@@ -27,7 +27,7 @@ MAGENTA='\033[35m'
 
 echo -e "\nExample of Java shebang script:"
 echo -e "---------------------------------------------------------------------"
-echo -e "${YELLOW}#!/usr/bin/java --source 22 --enable-preview --class-path $INSTALL_DIR${YELLOW}${RESET}\n"
+echo -e "${YELLOW}#!/usr/bin/env java --source 22 --enable-preview --class-path $INSTALL_DIR${YELLOW}${RESET}\n"
 echo -e "${BLUE}import${RESET} ${CYAN}static scripting.Utils${RESET}.${MAGENTA}*${RESET};\n"
 echo -e "${BLUE}void main${RESET}() {"
 echo -e "    ${CYAN}var response${RESET} = ${CYAN}http${RESET}.${GREEN}get${RESET}(\"${MAGENTA}https://httpbin.org/get${RESET}\");"

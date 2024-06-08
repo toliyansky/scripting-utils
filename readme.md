@@ -24,7 +24,7 @@ curl -s https://raw.githubusercontent.com/AnatoliyKozlov/scripting-utils/master/
 2) Create a shebang file (**without** the .java extension) 
 3) Write your Java code in the file (as in example below)
 ```java
-#!/usr/bin/java --source 22 --enable-preview --class-path /Users/toliyansky/scripting-utils
+#!/usr/bin/env java --source 22 --enable-preview --class-path /Users/toliyansky/scripting-utils
 
 import static scripting.Utils.*;
 

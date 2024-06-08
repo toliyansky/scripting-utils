@@ -1,4 +1,4 @@
-#!/usr/bin/java --source 22 --enable-preview --class-path /Users/toliyansky/scripting-utils
+#!/usr/bin/env java --source 22 --enable-preview --class-path /Users/toliyansky/scripting-utils
 
 import static scripting.Utils.*;
 
