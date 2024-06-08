@@ -13,7 +13,7 @@ rm -rf $INSTALL_DIR &&
 echo "Creating installation directory." &&
 mkdir -p $INSTALL_DIR/scripting &&
 echo "Replace sources." &&
-cp ../src/scripting/Utils.java $INSTALL_DIR/scripting/Utils.java &&
+cp ../src/main/java/scripting/Utils.java $INSTALL_DIR/scripting/Utils.java &&
 echo "Compile sources." &&
 javac --source 22 --enable-preview $INSTALL_DIR/scripting/Utils.java &&
 echo "Installation completed."
