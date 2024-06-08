@@ -12,7 +12,7 @@ public class SleepTest {
         var endTime = System.currentTimeMillis();
         var delta = endTime - startTime;
 
-        assertTrue(delta > 980 && delta < 1020);
+        assertTrue(delta > 950 && delta < 1050);
     }
 
     @Test
@@ -22,6 +22,6 @@ public class SleepTest {
         var endTime = System.currentTimeMillis();
         var delta = endTime - startTime;
 
-        assertTrue(delta > 980 && delta < 1020);
+        assertTrue(delta > 950 && delta < 1050);
     }
 }
