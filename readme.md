@@ -1,5 +1,7 @@
 # Scripting Utils for Java
 
+[![codecov](https://codecov.io/github/AnatoliyKozlov/scripting-utils/graph/badge.svg?token=4HO8QZMZUE)](https://codecov.io/github/AnatoliyKozlov/scripting-utils)
+
 ### Description
 
 This project provides a set of utilities for scripting in Java. It allows you to write Java scripts productively and efficiently.
