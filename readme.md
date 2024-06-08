@@ -1,5 +1,6 @@
 # Scripting Utils for Java
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/995494f09a9a48aa4857/maintainability)](https://codeclimate.com/github/AnatoliyKozlov/scripting-utils/maintainability)
 [![codecov](https://codecov.io/github/AnatoliyKozlov/scripting-utils/graph/badge.svg?token=4HO8QZMZUE)](https://codecov.io/github/AnatoliyKozlov/scripting-utils)
 
 ### Description
