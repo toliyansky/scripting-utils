@@ -2,6 +2,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/995494f09a9a48aa4857/maintainability)](https://codeclimate.com/github/AnatoliyKozlov/scripting-utils/maintainability)
 [![codecov](https://codecov.io/github/AnatoliyKozlov/scripting-utils/graph/badge.svg?token=4HO8QZMZUE)](https://codecov.io/github/AnatoliyKozlov/scripting-utils)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Description
 
